@@ -155,10 +155,12 @@ namespace TestRendering
             //_char = GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\cradle_tower\scene.gltf"); //memory!!!
             _model = GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\duck\Duck.gltf"); //memory!!!
             _chars.Add(GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\aura__fortnite_item_shop_skin\scene.gltf")); //memory!!!
-            _chars.Last().Scale = 0.25f;
-            _chars.Add(GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\banana_plant\scene.gltf"));
-            _chars.Last().Position.Y =  4;
+            //_chars.Last().Scale = 0.25f;
+            //_chars.Add(GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\banana_plant\scene.gltf"));
+            //_chars.Last().Position.Y =  4;
             _chars.Add(GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\spirit_blossom_kindred\scene.gltf"));
+            //_chars.Add(GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\luoli_run\scene.gltf"));
+            _chars.Last().Scale = 0.1f;
             //_char = GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\banana_plant\scene.gltf"); //memory!!!
             
             //_char = GLTFModel.LoadFromFile(GraphicsDevice, @"G:\Opera GX - Downloads\spirit_blossom_kindred\scene.gltf"); //memory!!!
