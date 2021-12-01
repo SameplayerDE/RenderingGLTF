@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+      <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.0.1641" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HxGLTF\HxGLTF.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="HxGLTF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\HxGLTF\HxGLTF\bin\Release\net472\HxGLTF.dll</HintPath>
+      </Reference>
+      <Reference Include="TrivialHxGLTF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\HxGLTF\TrivialHxGLTF\bin\Release\net5.0\TrivialHxGLTF.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
